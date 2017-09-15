@@ -22,6 +22,8 @@ func main() {
 	c := C{}
 	e := E{}
 
+	//testIn(c) wrong
+	//testIn(e)
 	testIn(&c)
 	testIn(&e)
 }

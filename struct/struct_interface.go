@@ -17,8 +17,8 @@ func main()  {
 	a := A{}
 	b := B{}
 
-	//test(a)
-	//test(b)
+	test(a)
+	test(b)
 	test(&a)
 	test(&b)
 }
