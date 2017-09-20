@@ -12,6 +12,8 @@ func main()  {
 	fmt.Println(s)
 }
 
+
+//next example
 /*func add(i []int) {
 	i = append(i, 1)
 }
