@@ -1,0 +1,7 @@
+project:
+  name: "name"
+  lang: "Golang"
+  use_db: false
+  version_control:
+    type: "Git"
+    url: "https://api.github.com/users/%s/repos"

@@ -81,17 +81,17 @@ func processData(in chan []string, out chan []string, buf chan struct{}, countCh
 func printData(in chan []string, countChan chan int) {
 	counter := 0
 
-	Ololo:
+	Loop:
 		for {
 			select {
 			case c, ok := <-countChan:
 				if !ok {
-					break Ololo
+					break Loop
 				}
 				counter += c
 			case data, ok := <-in:
 				if !ok {
-					break Ololo
+					break Loop
 				}
 				fmt.Println(data)
 			}
